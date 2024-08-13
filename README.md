@@ -47,7 +47,7 @@ go version
 cd && rm -rf Cardchain
 git clone https://github.com/DecentralCardGame/Cardchain
 cd Cardchain
-git checkout v0.14.2
+git checkout v0.16.0
 make install
 ```
 
@@ -56,7 +56,7 @@ make install
 Cardchaind config chain-id cardtestnet-10
 Cardchaind config keyring-backend test
 Cardchaind config node tcp://localhost:26657
-Cardchaind init "your moniker" --chain-id cardtestnet-10
+Cardchaind init "your moniker" --chain-id cardtestnet-12
 ```
 
 # Download genesis and addrbook
@@ -153,8 +153,8 @@ Cardchaind tx staking create-validator \
 ```
 No update
 
-Current network:cardtestnet-10
-Current version:v0.14.2
+Current network:cardtestnet-12
+Current version:v0.16.0
 ```
 
 ### Useful commands
